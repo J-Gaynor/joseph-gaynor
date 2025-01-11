@@ -47,17 +47,18 @@ $(document).ready(function(){
         $('#lead-3').text("Currently, I am living in Japan and working on building this very portfolio. I want to explore the industry's most used languages and frameworks and I have recently began learning Next.js. While exploring Japan, I want to work on webpage translation projects with the desire to work in Japan in the near future.");
         $('#services-title').text('Services');
         $('#services-body').text('Want an idea of what I offer? Take a look!');
-        $('#front-end-title').text('Front End Design')
-        $('#front-end-body').text('Building fast, responsive, and visually engaging websites, ensuring a seamless user experience across all devices.')
-        $('#full-stack-title').text('Full Stack Development')
-        $('#full-stack-body').text('Developing and bringing together both user interface and user data to create complete systems.')
-        $('#back-end-title').text('Back End Construction.')
-        $('#back-end-body').text('Constructing server side functionality to leverage external APIs and build user systems.')
+        $('#front-end-title').text('Front End Design');
+        $('#front-end-body').text('Building fast, responsive, and visually engaging websites, ensuring a seamless user experience across all devices.');
+        $('#full-stack-title').text('Full Stack Development');
+        $('#full-stack-body').text('Developing and bringing together both user interface and user data to create complete systems.');
+        $('#back-end-title').text('Back End Construction.');
+        $('#back-end-body').text('Constructing server side functionality to leverage external APIs and build user systems.');
         $('#portfolio-title').text('Portfolio');
         $('#portfolio-body').text('Take a look at some of my projects.');
-        $('#verb-conjugator-desc').text('A React based web application which challenges users to conjugate Japanese verbs into different forms. Features dynamic answer animations and styled with Bootstrap.')
-        $('#john-wayne-desc').text('A modern website for a barber in Osaka. My first project using Tailwind and NextJS.')
-        $('#blog-desc').text('A Wordpress blog about my time exploring Japan.')
+        $('#verb-conjugator-desc').text('A React based web application which challenges users to conjugate Japanese verbs into different forms. Features dynamic answer animations and styled with Bootstrap.');
+        $('#john-wayne-desc').text('A modern website for a barber in Osaka. My first project using Tailwind and NextJS.');
+        $('#blog-desc').text('A Wordpress blog about my time exploring Japan.');
+        $('#ai-artist-desc').text('A full stack project that utilises AI to give an example on how artists can promote their projects prior to releasing and without having to say a word themselves.');
         // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
@@ -89,26 +90,27 @@ $(document).ready(function(){
         $('#lead-2').text(`このブートキャンプでは、CS50で学んだプログラミング言語をさらに詳しく探求し、特にJavaScriptについて深く学びました。また、ReactやReduxなどのさまざまなフレームワークにも触れ、プロジェクトの完成方法に対する新しい視点を得ることができました。コースの一環として、複数のプログラミング言語を使用して「ガゼッティア」と「従業員データベースシステム」のウェブサイトを作成しました。`);
         $('#lead-3').text(`現在、日本に住んでいて、このポートフォリオを構築する作業を進めています。業界で最も使用されている言語やフレームワークを探求したいと考えており、最近Next.jsの学習を始めました。日本を探索しながら、ウェブページ翻訳プロジェクトに取り組みたいと考えており、近い将来、日本で働くことを目指しています。`);
         $('#services-title').text('サービス');
-        $('#services-body').text('提供している内容が気になりますか？ご覧ください！')
-        $('#front-end-title').text('フロントエンドデザイン')
-        $('#front-end-body').text('高速でレスポンシブ、視覚的に魅力的なウェブサイトを構築し、すべてのデバイスでシームレスなユーザー体験を提供します。')
-        $('#full-stack-title').text('フルスタック開発')
-        $('#full-stack-body').text('ユーザーインターフェースとユーザーデータを統合し、完全なシステムを作成します。')
-        $('#back-end-title').text('バックエンド構築')
-        $('#back-end-body').text('サーバーサイド機能を構築し、外部APIを活用してユーザーシステムを構築します。')
+        $('#services-body').text('提供している内容が気になりますか？ご覧ください！');
+        $('#front-end-title').text('フロントエンドデザイン');
+        $('#front-end-body').text('高速でレスポンシブ、視覚的に魅力的なウェブサイトを構築し、すべてのデバイスでシームレスなユーザー体験を提供します。');
+        $('#full-stack-title').text('フルスタック開発');
+        $('#full-stack-body').text('ユーザーインターフェースとユーザーデータを統合し、完全なシステムを作成します。');
+        $('#back-end-title').text('バックエンド構築');
+        $('#back-end-body').text('サーバーサイド機能を構築し、外部APIを活用してユーザーシステムを構築します。');
         $('#portfolio-title').text('ポートフォリオ');
         $('#portfolio-body').text('プロジェクトを見せてください。');
-        $('#verb-conjugator-desc').text('Reactをベースにしたウェブアプリケーションで、ユーザーが日本語の動詞を異なる形に活用する挑戦を提供します。動的な回答アニメーションを特徴とし、Bootstrapでスタイリングされています。')
-        $('#john-wayne-desc').text('大阪の理容師のためのモダンなウェブサイトです。TailwindとNextJSを使った最初のプロジェクトです。')
-        $('#blog-desc').text('日本を探求していた時のことを綴ったWordPressのブログです。')
+        $('#verb-conjugator-desc').text('Reactをベースにしたウェブアプリケーションで、ユーザーが日本語の動詞を異なる形に活用する挑戦を提供します。動的な回答アニメーションを特徴とし、Bootstrapでスタイリングされています。');
+        $('#john-wayne-desc').text('大阪の理容師のためのモダンなウェブサイトです。TailwindとNextJSを使った最初のプロジェクトです。');
+        $('#blog-desc').text('日本を探求していた時のことを綴ったWordPressのブログです。');
+        $('#ai-artist-desc').text('リリース前にアーティストが自身で言葉を発することなく、プロジェクトをプロモーションする方法の例を示すために、AIを活用したフルスタックプロジェクト。');
         // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
 
-        $('#project-1-category').text('ウェブアプリ');
-        $('#project-1-date').text('2023年');
-        $('#project-2-category').text('ウェブアプリ');
-        $('#project-2-date').text('2024年');
+        // $('#project-1-category').text('ウェブアプリ');
+        // $('#project-1-date').text('2023年');
+        // $('#project-2-category').text('ウェブアプリ');
+        // $('#project-2-date').text('2024年');
         initializeTyped();
     }
 
