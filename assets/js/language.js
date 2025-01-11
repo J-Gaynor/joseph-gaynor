@@ -44,7 +44,7 @@ $(document).ready(function(){
         $('#about-me').text('About Me');
         $('#lead-1').text("Following my graduation from the University of Sheffield in 2022, I began learning basic coding skills via Harvard's various CS50 courses. After completing a number of these courses, I discovered my real interest was web development and undertook a web development bootcamp provided by IT Career Switch.");
         $('#lead-2').text("In this bootcamp, I explored the languages I had learned from CS50 in more detail, in particular JavaScript. I was introduced to various frameworks such as React and Redux which gave me a new perspective on how projects can be completed. As part of the course, I created a Gazetteer and Employee Database System website using a number of languages.");
-        $('#lead-3').text("Currently, I am living in Japan and working on building this very portfolio. I want to explore the industry's most used languages and frameworks and I have recently began learning Next.js. While exploring Japan, I want to work on webpage translation projects with the desire to work in Japan in the near future.");
+        $('#lead-3').text("Currently, I am living in Japan and working on building this very portfolio. I want to explore the industry's most used languages and frameworks. While exploring Japan, I want to work on webpage translation projects with the desire to work in Japan in the near future.");
         $('#services-title').text('Services');
         $('#services-body').text('Want an idea of what I offer? Take a look!');
         $('#front-end-title').text('Front End Design');
@@ -88,7 +88,7 @@ $(document).ready(function(){
         $('#about-me').text('自己紹介');
         $('#lead-1').text("2022年にシェフィールド大学を卒業した後、ハーバード大学のさまざまなCS50コースを通じて基本的なコーディングスキルを学び始めました。いくつかのコースを修了した後、自分の本当の関心がウェブ開発にあることに気づき、ITキャリアスイッチが提供するウェブ開発ブートキャンプに参加しました。");
         $('#lead-2').text(`このブートキャンプでは、CS50で学んだプログラミング言語をさらに詳しく探求し、特にJavaScriptについて深く学びました。また、ReactやReduxなどのさまざまなフレームワークにも触れ、プロジェクトの完成方法に対する新しい視点を得ることができました。コースの一環として、複数のプログラミング言語を使用して「ガゼッティア」と「従業員データベースシステム」のウェブサイトを作成しました。`);
-        $('#lead-3').text(`現在、日本に住んでいて、このポートフォリオを構築する作業を進めています。業界で最も使用されている言語やフレームワークを探求したいと考えており、最近Next.jsの学習を始めました。日本を探索しながら、ウェブページ翻訳プロジェクトに取り組みたいと考えており、近い将来、日本で働くことを目指しています。`);
+        $('#lead-3').text(`現在、日本に住んでいて、このポートフォリオを構築する作業を進めています。業界で最も使用されている言語やフレームワークを探求したいと考えています。日本を探索しながら、ウェブページ翻訳プロジェクトに取り組みたいと考えており、近い将来、日本で働くことを目指しています。`);
         $('#services-title').text('サービス');
         $('#services-body').text('提供している内容が気になりますか？ご覧ください！');
         $('#front-end-title').text('フロントエンドデザイン');
