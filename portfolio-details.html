@@ -51,18 +51,17 @@
 
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="#hero" class="active">Home<br></a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li class="dropdown"><a href="#"><span>Language</span> <i
+                    <li><a href="#hero" class="active" id="nav-home">Home<br></a></li>
+                    <li><a href="#about" id="nav-about">About</a></li>
+                    <li><a href="#services" id="nav-services">Services</a></li>
+                    <li><a href="#portfolio" id="nav-portfolio">Portfolio</a></li>
+                    <li class="dropdown"><a href="#"><span id="nav-language">Language</span> <i
                                 class="bi bi-chevron-down toggle-dropdown"></i></a>
                         <ul>
-                            <li><a href="#">English</a></li>
-                            <li><a href="#">Japanese</a></li>
+                            <li><a id="english" class="lang-select">English</a></li>
+                            <li><a id="japanese" class="lang-select">Japanese</a></li>
                         </ul>
                     </li>
-                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
@@ -114,33 +113,16 @@
                             <div class="row justify-content-between gy-4 mt-4">
                                 <div class="col-lg-8">
                                     <h3>WordPress Blog</h3>
-                                    <h4>Tech Stack:</h4>
+                                    <h4 class="tech-stack"></h4>
                                     <strong>WordPress</strong>
                                     <div>
                                         <br>
-                                        <p>
-                                            In my blog about my time in Japan, I utilised WordPress, a service I had no familiarity
-                                            with whatsoever. Through self-
-                                            teaching and some trial and error, I created a blog page that I am happy with. Though
-                                            minimalistic in functionality,
-                                            it captures the essence of what I wanted, which was a blog site where I can detail my
-                                            travels across the country.
-                                        </p>
-                                        <p>
-                                            Currently, the blog is crafted entirely with vanilla WordPress (no plugins) and was made
-                                            using WordPress.com rather
-                                            than WordPress.org. As the blog grows, I will possibly revisit it and implement
-                                            additional functionality that,
-                                            as of now, hasn't occured to me.
-                                        </p>
-                                        <p>
-                                            This project highlights my desire and initiative to branch out from technology that I am
-                                            used to in order to work on
-                                            projects that may not be my area of expertise.
-                                        </p>
+                                        <p id="wordpress-para-1"></p>
+                                        <p id="wordpress-para-2"></p>
+                                        <p id="wordpress-para-3"></p>
                                     </div>
                                 </div>
-    
+
                                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-info">
                                         <h3>Project information</h3>
@@ -148,7 +130,9 @@
                                             <li><strong>Category</strong>Blog</li>
                                             <li><strong>Client</strong>Personal</li>
                                             <li><strong>Project date</strong>October, 2024</li>
-                                            <li><strong>Project URL</strong> <a href="https://joepan0.wordpress.com">https://joepan0.wordpress.com</a></li>
+                                            <li><strong>Project URL</strong> <a
+                                                    href="https://joepan0.wordpress.com">https://joepan0.wordpress.com</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -160,32 +144,18 @@
                             <div class="row justify-content-between gy-4 mt-4">
                                 <div class="col-lg-8">
                                     <h3>John Wayne Barbershop</h3>
-                                    <h4>Tech Stack:</h4>
-                                    <span><strong>NextJS:</strong><p>Framework for building React applications.</p></span>
-                                    <span><strong>React-Intl:</strong><p>Library for internationalisation and translations.</p></span>
-                                    <span><strong>Tailwind CSS:</strong><p>Utility-first framework for styling.</p></span>
-                                    <p>
-                                        This project is my first implementation of Next.js, React-Intl, and Tailwind CSS. 
-                                        It showcases a bilingual barber shop website designed for a Japanese company, combining 
-                                        Japanese web design principles with an English layout.
-                                    </p>
-                                    <span>
-                                        Features<br>
-                                        Internationalization:
-                                        Translations are stored in separate locale files. All site text is dynamically loaded using 
-                                        React-Intl.<br>
-                                        Branch Structure:
-                                        The main implementation can be viewed in the main branch.
-                                        Changes specific to the English-only version are in the eng-only branch.
-                                    </span>
-                                    <p><br>
-                                        The site was designed to complement the company's existing Japanese website. The English 
-                                        version will be live, while the Japanese button links to their existing site rather than 
-                                        a translated version. Please view the live netlify demo to see the translation feature in 
-                                        action.
-                                    </p>
+                                    <h4 class="tech-stack"></h4>
+                                    <strong>NextJS</strong><br>
+                                    <strong>React-Intl</strong><br>
+                                    <strong>Tailwind CSS</strong><br>
+                                    <div>
+                                        <br>
+                                        <p id="john-wayne-para-1"></p>
+                                        <p id="john-wayne-para-2"></p>
+                                        <p id="john-wayne-para-3"></p>
+                                    </div>
                                 </div>
-    
+
                                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-info">
                                         <h3>Project information</h3>
@@ -193,8 +163,11 @@
                                             <li><strong>Category</strong>Business Website</li>
                                             <li><strong>Client</strong>John Wayne Barbershop</li>
                                             <li><strong>Project date</strong>November, 2024</li>
-                                            <li><strong>Demo URL (including translation)</strong> <a href="http://jw-bb.com/en/">http://jw-bb.com/en/</a></li>
-                                            <li><strong>Live URL</strong> <a href="https://jw-barbershop.netlify.app">https://jw-barbershop.netlify.app</a></li>
+                                            <li><strong>Demo URL (including translation)</strong> <a
+                                                    href="http://jw-bb.com/en/">http://jw-bb.com/en/</a></li>
+                                            <li><strong>Live URL</strong> <a
+                                                    href="https://jw-barbershop.netlify.app">https://jw-barbershop.netlify.app</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -206,27 +179,17 @@
                             <div class="row justify-content-between gy-4 mt-4">
                                 <div class="col-lg-8">
                                     <h3>Japanese Verb Conjugator</h3>
-                                    <h4>Tech Stack:</h4>
-                                    <span><strong>React:</strong><p>Framework for building this application.</p></span>
-                                    <span><strong>Bootstrap:</strong><p>Styling framework.</p></span>
-                                    <p>
-                                        Given that I study Japanese, it only makes sense to develop a project that can aid in my and
-                                        my classmates learning. Therefore, when I realised the frequency at which we found ourselves
-                                        switching between verb conjugations, I thought a website to practice doing just that would be
-                                        beneficial for learning both coding and Japanese.
-                                    </p>
-                                    <p>
-                                        The project makes use of Bootstrap CSS styling to create an intuitive layout for the user.
-                                        React was chosen as the JS framework as I knew from the get go I'd be doing a lot of dynamic
-                                        (and conditional) rendering. While developing, I decided to implement the Wanakana package to
-                                        improve UX by allowing real time conversion of English to Japanese if the user doesn't have a 
-                                        Japanese keyboard.
-                                    </p>
-                                    <p>
-                                        I was pleased with the simplicity to use this project on both mobile and desktop devices.
-                                    </p>
+                                    <h4 class="tech-stack"></h4>
+                                    <strong>React</strong><br>
+                                    <strong>Bootstrap</strong><br>
+                                    <div>
+                                        <br>
+                                        <p id="verb-conjugator-para-1"></p>
+                                        <p id="verb-conjugator-para-2"></p>
+                                        <p id="verb-conjugator-para-3"></p>
+                                    </div>
                                 </div>
-    
+
                                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-info">
                                         <h3>Project information</h3>
@@ -234,7 +197,9 @@
                                             <li><strong>Category</strong>Web Application</li>
                                             <li><strong>Client</strong>Personal / Classmates</li>
                                             <li><strong>Project date</strong>December, 2024</li>
-                                            <li><strong>Project URL</strong> <a href="https://japanese-verb-conjugator.netlify.app">https://japanese-verb-conjugator.netlify.app</a></li>
+                                            <li><strong>Project URL</strong> <a
+                                                    href="https://japanese-verb-conjugator.netlify.app">https://japanese-verb-conjugator.netlify.app</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -246,31 +211,19 @@
                             <div class="row justify-content-between gy-4 mt-4">
                                 <div class="col-lg-8">
                                     <h3>AI Artist Promotion</h3>
-                                    <h4>Tech Stack:</h4>
-                                    <span><strong>NextJS:</strong><p>Framework for building this application.</p></span>
-                                    <span><strong>Tailwind:</strong><p>Styling framework.</p></span>
-                                    <span><strong>Node.js:</strong><p>Backend runtime environment.</p></span>
-                                    <span><strong>Express:</strong><p>Backend framework.</p></span>
-                                    <span><strong>Google Gemini:</strong><p>AI chatbot API.</p></span>
-                                    <p>
-                                        In an age where music snippets can shift public perception of an artist's career, this 
-                                        project sees AI utilise music snippets as to speak to users as if it was the artist 
-                                        themselves. With a customised Gemini prompt that tells the bot to imitate artist Lil 
-                                        Uzi Vert's social media vernacular, this bot does a great job matching the lingo to 
-                                        create a realistic interaction with the user. The output of the bot has been customised 
-                                        so that if a user asks for snippets from the artist, the bot can search through a JSON 
-                                        and return snippets that match the user's criteria. These snippets are extracted from 
-                                        the bot's response and transformed into a custom <AudioContainer /> component which 
-                                        allows the user to listen to the snippet.
-                                    </p>
-                                    <p>
-                                        This project challenged me to go beyond simple API usage, and forced me to format my
-                                        responses in a specific manner. Separating the response in order to feed details to my
-                                        Audio Container element proved challenging, but I am extremely pleased with the results.
-                                        This project looks and feels like a postmodern promotion piece.
-                                    </p>
+                                    <h4 class="tech-stack"></h4>
+                                    <strong>NextJS</strong><br>
+                                    <strong>Tailwind</strong><br>
+                                    <strong>Node.js</strong><br>
+                                    <strong>Express</strong><br>
+                                    <strong>Google Gemini</strong><br>
+                                    <div>
+                                        <br>
+                                        <p id="ai-artist-para-1"></p>
+                                        <p id="ai-artist-para-2"></p>
+                                    </div>
                                 </div>
-    
+
                                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-info">
                                         <h3>Project information</h3>
@@ -278,7 +231,9 @@
                                             <li><strong>Category</strong>Promotion site</li>
                                             <li><strong>Client</strong>Personal</li>
                                             <li><strong>Project date</strong>January, 2025</li>
-                                            <li><strong>Project URL</strong> <a href="https://uziallwhite.netlify.app">https://uziallwhite.netlify.app</a></li>
+                                            <li><strong>Project URL</strong> <a
+                                                    href="https://uziallwhite.netlify.app">https://uziallwhite.netlify.app</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -290,26 +245,17 @@
                             <div class="row justify-content-between gy-4 mt-4">
                                 <div class="col-lg-8">
                                     <h3>Object Identifier</h3>
-                                    <h4>Tech Stack:</h4>
-                                    <span><strong>Mediapipe:</strong><p>Machine learning framework.</p></span>
-                                    <span><strong>React:</strong><p>Framework for building this application.</p></span>
-                                    <span><strong>Tailwind:</strong><p>Styling framework.</p></span>
-                                    <p>
-                                        As ML and AI become ever more prevalent in consumer lifestyle, I wanted to make a project 
-                                        that utilised some of the features of existing machine learning frameworks. Given the
-                                        relative lightweight of mediapipe as a JS import, I thought it would be great to use This
-                                        framework to create my object identifier. Furthermore, I knew from my experience with
-                                        Gemini how accessible the docs were for Google developer tools.
-                                    </p>
-                                    <p>
-                                        Being entirely front end based, this project leverages Google's 'Efficient Det Lite 0' model
-                                        to identify the image uploaded by the user. This model was chosen due to its balance of
-                                        accuracy and speed whilst having access to a large data pool for reference. Though basic
-                                        in appearance, the project does use React to avoid needlessly reloading the page to render 
-                                        the results of passsing the image to Mediapipe's vision tasks model.
-                                    </p>
+                                    <h4 class="tech-stack"></h4>
+                                    <strong>Mediapipe</strong><br>
+                                    <strong>React</strong><br>
+                                    <strong>Tailwind</strong><br>
+                                    <div>
+                                        <br>
+                                        <p id="object-identifier-para-1"></p>
+                                        <p id="object-identifier-para-2"></p>
+                                    </div>
                                 </div>
-    
+
                                 <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
                                     <div class="portfolio-info">
                                         <h3>Project information</h3>
@@ -317,7 +263,9 @@
                                             <li><strong>Category</strong>Web Application</li>
                                             <li><strong>Client</strong>Personal</li>
                                             <li><strong>Project date</strong>January, 2025</li>
-                                            <li><strong>Project URL</strong> <a href="https://object-identifier-mp.netlify.app">https://object-identifier-mp.netlify.app</a></li>
+                                            <li><strong>Project URL</strong> <a
+                                                    href="https://object-identifier-mp.netlify.app">https://object-identifier-mp.netlify.app</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -383,7 +331,9 @@
     <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main JS File -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/language.js"></script>
 
 </body>
 
