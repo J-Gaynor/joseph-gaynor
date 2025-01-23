@@ -59,6 +59,7 @@ $(document).ready(function(){
         $('#john-wayne-desc').text('A modern website for a barber in Osaka. My first project using Tailwind and NextJS.');
         $('#blog-desc').text('A Wordpress blog about my time exploring Japan.');
         $('#ai-artist-desc').text('A full stack project that utilises AI to give an example on how artists can promote their projects prior to releasing and without having to say a word themselves.');
+        $('#object-identifier-desc').text('A front end project utilising Google\'s Mediapipe to analyse images uploaded by the user and state the focal point of the image with a level of confience. Built with React.');
         // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
@@ -103,6 +104,7 @@ $(document).ready(function(){
         $('#john-wayne-desc').text('大阪の理容師のためのモダンなウェブサイトです。TailwindとNextJSを使った最初のプロジェクトです。');
         $('#blog-desc').text('日本を探求していた時のことを綴ったWordPressのブログです。');
         $('#ai-artist-desc').text('リリース前にアーティストが自身で言葉を発することなく、プロジェクトをプロモーションする方法の例を示すために、AIを活用したフルスタックプロジェクト。');
+        $('#object-identifier-desc').text('ユーザーがアップロードした画像を解析し、画像の焦点を信頼度とともに示すために、GoogleのMediapipeを活用したフロントエンドプロジェクト。Reactを使用して構築されています。');
         // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
         // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
