@@ -71,11 +71,9 @@ $(document).ready(function(){
         $('#ai-artist-para-2').text('This project challenged me to go beyond simple API usage, and forced me to format my responses in a specific manner. Separating the response in order to feed details to my Audio Container element proved challenging, but I am extremely pleased with the results. This project looks and feels like a postmodern promotion piece.');
         $('#object-identifier-para-1').text('As ML and AI become ever more prevalent in consumer lifestyle, I wanted to make a project that utilised some of the features of existing machine learning frameworks. Given the relative lightweight of mediapipe as a JS import, I thought it would be great to use This framework to create my object identifier. Furthermore, I knew from my experience with Gemini how accessible the docs were for Google developer tools.');
         $('#object-identifier-para-2').text('Being entirely front end based, this project leverages Google\'s \'Efficient Det Lite 0\' model to identify the image uploaded by the user. This model was chosen due to its balance of accuracy and speed whilst having access to a large data pool for reference. Though basic in appearance, the project does use React to avoid needlessly reloading the page to render the results of passsing the image to Mediapipe\'s vision tasks model.');
-
-
-        // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
-        // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
-        // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
+        $('#person-1-name').text('Naoto Shirakawa')
+        $('#person-1-role').text('Manager at John Wayne Barbershop')
+        $('#person-1-quote').text('The Barbershop John Wayne website was brilliantly revamped thanks to Joseph\'s exceptional design sense and technical skills. His ideas were always innovative, accurately capturing our requirements and delivering results beyond our expectations. Joseph is truly a reliable professional.')
 
         initializeTyped();
     }
@@ -132,10 +130,9 @@ $(document).ready(function(){
         $('#ai-artist-para-2').text('このプロジェクトでは、単純なAPIの使用を超えることが求められ、応答を特定の形式に整える必要がありました。応答を分割してAudio Container要素に詳細を渡すのは挑戦的でしたが、結果には非常に満足しています。このプロジェクトは、ポストモダンなプロモーション作品のような外観と感覚を持っています。');
         $('#object-identifier-para-1').text('機械学習やAIが消費者の生活にますます普及する中、既存の機械学習フレームワークの機能を活用したプロジェクトを作りたいと思いました。MediapipeがJSインポートとして比較的軽量であることを考え、このフレームワークを使ってオブジェクト識別ツールを作るのは素晴らしいアイデアだと思いました。また、Google開発者ツールのドキュメントが非常に使いやすいことはGeminiの経験から知っていました。');
         $('#object-identifier-para-2').text('このプロジェクトは完全にフロントエンドベースであり、Googleの「Efficient Det Lite 0」モデルを活用してユーザーがアップロードした画像を識別します。このモデルは、正確性と速度のバランスが取れており、大量のデータプールを参照できる点から選ばれました。見た目はシンプルですが、Reactを使用して画像をMediapipeのVision Tasksモデルに渡した結果をレンダリングする際にページを無駄にリロードしないようにしています。');
-
-        // $('#person-1-name').text('日本を探求していた時のことを綴ったWordPressのブログです。')
-        // $('#person-1-role').text('日本を探求していた時のことを綴ったWordPressのブログです。')
-        // $('#person-1-quote').text('日本を探求していた時のことを綴ったWordPressのブログです。')
+        $('#person-1-name').text('白川　直人')
+        $('#person-1-role').text('John Wayne Barbershopでマネージャー')
+        $('#person-1-quote').text('バーバージョンウェインのウェブサイトは、Josephさんの卓越したデザインセンスと技術によって、見事に生まれ変わりました。彼の提案は常に斬新で、私たちの要望を的確に捉え、期待以上の成果をもたらしてくれました。Josephさんは、まさに信頼できるプロフェッショナルです。')
         initializeTyped();
     }
 
