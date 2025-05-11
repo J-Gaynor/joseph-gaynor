@@ -900,6 +900,10 @@ section,
   margin-bottom: 0;
 }
 
+.skill-container {
+  display: flex;
+}
+
 @media (min-width: 1365px) {
   .services .service-item:hover {
     transform: translateY(-10px);
@@ -1205,7 +1209,7 @@ section,
 
 .testimonials .testimonials-carousel,
 .testimonials .testimonials-slider {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .testimonials .testimonial-item {
@@ -1285,6 +1289,15 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--default-color);
   opacity: 1;
+}
+
+.portfolio-swiper, 
+.testimonials-swiper {
+  height: 200px; /* Adjust as needed */
+}
+
+.testimonials-swiper .swiper-slide {
+  width: auto !important; 
 }
 
 @media (min-width: 992px) {
@@ -1386,6 +1399,10 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
+#portfolio {
+  padding: 20px 0;
+}
+
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }

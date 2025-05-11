@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -102,21 +101,43 @@
                             <h5 id="skills">Skills</h5>
 
                             <div class="progress">
-                                <span class="skill"><span>HTML</span></span>
+                                <span class="skill-container">
+                                    <span class="skill">JavaScript/TypeScript:&nbsp;</span>
+                                    <p>Next.js, React</p>
+                                </span>
                             </div><!-- End Skills Item -->
 
                             <div class="progress">
-                                <span class="skill"><span>CSS</span></span>
+                                <span class="skill-container">
+                                    <span class="skill">HTML/CSS:&nbsp;</span>
+                                    <p>Tailwind, Bootstrap</p>
+                                </span>
                             </div><!-- End Skills Item -->
 
                             <div class="progress">
-                                <span class="skill"><span>JavaScript</span></span>
+                                <span class="skill-container">
+                                    <span class="skill">SQL:&nbsp;</span>
+                                    <p>PostgreSQL, MySQL, SQLite</p>
+                                </span>
                             </div><!-- End Skills Item -->
 
                             <div class="progress">
-                                <span class="skill"><span>Python</span></span>
+                                <span class="skill-container">
+                                    <span class="skill">AWS </span>
+                                </span>
                             </div><!-- End Skills Item -->
 
+                            <div class="progress">
+                                <span class="skill-container">
+                                    <span class="skill">Git/GitHub</span>
+                                </span>
+                            </div><!-- End Skills Item -->
+
+                            <div class="progress">
+                                <span class="skill-container">
+                                    <span class="skill">Python </span>
+                                </span>
+                            </div><!-- End Skills Item -->
                         </div>
                     </div>
 
@@ -262,153 +283,210 @@
 
         <!-- Portfolio Section -->
         <section id="portfolio" class="portfolio section">
-
             <!-- Section Title -->
             <div class="container section-title" data-aos="fade-up">
                 <h2 id="portfolio-title">Portfolio</h2>
                 <p id="portfolio-body">Take a look at some of my projects.</p>
-            </div><!-- End Section Title -->
+            </div>
+            <!-- End Section Title -->
 
             <div class="container">
-
-                <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-                    <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://syqology.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/syqology.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>SyQoLogy</h4>
-                                <p id="syqology-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-                        
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://object-identifier-mp.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/object-identifier.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Object Identifier</h4>
-                                <p id="object-identifier-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://uziallwhite.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/ai-artist.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Ai Artist Promotion</h4>
-                                <p id="ai-artist-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://japanese-verb-conjugator.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/verb-conjugator.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Japanese Verb Conjugator</h4>
-                                <p id="verb-conjugator-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://jw-barbershop.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/john-wayne.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>John Wayne Barbershop</h4>
-                                <p id="john-wayne-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://joepan0.wordpress.com" target="_blank">
-                            <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Wordpress Blog</h4>
-                                <p id="blog-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-                            <a href="https://life-i-chose.netlify.app" target="_blank">
-                            <img src="assets/img/portfolio/album-promo.png" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h4>Album Promotion Website</h4>
-                                <p id="album-promotion-desc"></p>
-                                <a href="portfolio-details.html" title="More Details" class="details-link"><i
-                                        class="bi bi-link-45deg"></i></a>
-                            </div>
-                        </div><!-- End Portfolio Item -->
-
-                    </div><!-- End Portfolio Container -->
-
-                </div>
-
-            </div>
-
-        </section><!-- /Portfolio Section -->
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section accent-background">
-
-            <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-                <div class="swiper init-swiper">
+                <!-- Swiper Container -->
+                <div class="swiper portfolio-swiper init-swiper" data-aos="fade-up" data-aos-delay="200">
                     <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-                    <div class="swiper-wrapper">
+                        {
+                            "loop": true,
+                            "speed": 600,
+                            "slidesPerView": 1,
+                            "spaceBetween": 30,
+                            "breakpoints": {
+                              "768": {
+                                "slidesPerView": 2
+                              },
+                              "1024": {
+                                "slidesPerView": 3
+                              }
+                            },
+                            "navigation": {
+                              "nextEl": ".portfolio-swiper-next",
+                              "prevEl": ".portfolio-swiper-prev"
+                            }
+                          }                          
+                    </script>
 
+                    <div class="swiper-wrapper">
+                        <!-- Portfolio Items -->
                         <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <h3 id="person-1-name"></h3>Testimonial</h3>
-                                <h4 id="person-1-role">Position</h4>
-                                <div class="stars">
-                                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                        class="bi bi-star-fill"></i>
-                                </div>
-                                <p>
-                                    <i class="bi bi-quote quote-icon-left"></i>
-                                    <span id="person-1-quote">Testimonial quote</span>
-                                    <i class="bi bi-quote quote-icon-right"></i>
-                                </p>
+                            <div class="portfolio-item">
+                                <a href="https://syqology.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/syqology.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>SyQoLogy</h4>
+                                        <p id="syqology-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
                             </div>
                         </div>
 
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://object-identifier-mp.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/object-identifier.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Object Identifier</h4>
+                                        <p id="object-identifier-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://uziallwhite.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/ai-artist.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Ai Artist Promotion</h4>
+                                        <p id="ai-artist-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://japanese-verb-conjugator.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/verb-conjugator.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Japanese Verb Conjugator</h4>
+                                        <p id="verb-conjugator-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://jw-barbershop.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/john-wayne.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>John Wayne Barbershop</h4>
+                                        <p id="john-wayne-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://joepan0.wordpress.com" target="_blank">
+                                    <img src="assets/img/portfolio/blog.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Wordpress Blog</h4>
+                                        <p id="blog-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="portfolio-item">
+                                <a href="https://life-i-chose.netlify.app" target="_blank">
+                                    <img src="assets/img/portfolio/album-promo.png" class="img-fluid" alt="">
+                                    <div class="portfolio-info">
+                                        <h4>Album Promotion Website</h4>
+                                        <p id="album-promotion-desc"></p>
+                                        <a href="portfolio-details.html" title="More Details" class="details-link">
+                                            <i class="bi bi-link-45deg"></i>
+                                        </a>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="swiper-pagination"></div>
+
+                    <!-- Navigation Arrows -->
+                    <div class="swiper-button-prev portfolio-swiper-prev"></div>
+                    <div class="swiper-button-next portfolio-swiper-next"></div>
+                </div>
+                <!-- End Swiper Container -->
+            </div>
+        </section>
+        <!-- /Portfolio Section -->
+
+
+       <!-- Testimonials Section -->
+<section id="testimonials" class="testimonials section accent-background">
+
+    <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper testimonials-swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": { 
+                    "delay": 5000 
+                  },
+                  "centeredSlides": true,
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".testimonials-swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="testimonial-item">
+                        <h3 id="person-1-name">Testimonial</h3>
+                        <h4 id="person-1-role">Position</h4>
+                        <div class="stars">
+                            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                                class="bi bi-star-fill"></i>
+                        </div>
+                        <p>
+                            <i class="bi bi-quote quote-icon-left"></i>
+                            <span id="person-1-quote">Testimonial quote</span>
+                            <i class="bi bi-quote quote-icon-right"></i>
+                        </p>
+                    </div>
                 </div>
 
+                <!-- Additional testimonials can go here -->
+                
             </div>
+            <div class="swiper-pagination testimonials-swiper-pagination"></div>
+        </div>
 
-        </section>
-        <!-- /Testimonials Section -->
+    </div>
+
+</section>
+<!-- /Testimonials Section -->
+
 
     </main>
 
