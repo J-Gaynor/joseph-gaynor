@@ -1,29 +1,29 @@
-    let typed; // Declare a global variable to store the Typed instance
+let typed; // Declare a global variable to store the Typed instance
 
-    function initializeTyped() {
-        const selectTyped = document.querySelector('.typed');
-        if (selectTyped) {
-            let typed_strings = selectTyped.getAttribute('data-typed-items');
-            typed_strings = typed_strings.split(',');
+function initializeTyped() {
+    const selectTyped = document.querySelector('.typed');
+    if (selectTyped) {
+        let typed_strings = selectTyped.getAttribute('data-typed-items');
+        typed_strings = typed_strings.split(',');
 
-            // Destroy previous instance if it exists
-            if (typed) {
-                typed.destroy();
-            }
-
-            // Create a new Typed instance
-            typed = new Typed('.typed', {
-                strings: typed_strings,
-                loop: true,
-                typeSpeed: 100,
-                backSpeed: 50,
-                backDelay: 2000
-            });
+        // Destroy previous instance if it exists
+        if (typed) {
+            typed.destroy();
         }
-    }
 
-$(document).ready(function(){
-    function english(){
+        // Create a new Typed instance
+        typed = new Typed('.typed', {
+            strings: typed_strings,
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 50,
+            backDelay: 2000
+        });
+    }
+}
+
+$(document).ready(function () {
+    function english() {
         $('#nav-home').text('Home');
         $('#nav-about').text('About');
         $('#nav-services').text('Services');
@@ -77,6 +77,8 @@ $(document).ready(function(){
         $('#album-promo-para-2').text('This project challenged my design skills but I am happy with the way it turned out. Being able to match a theme proved both challenging and rewarding.')
         $('#syqology-para-1').text('SyQoLogy is a social experiment style web app which challenges users to remain an active player whilst providing them limited abilities to maintain their position. I decided to work on this project as I thought it would be a great way to introduce myself to TypeScript as well as solidifying my backend skills at the same time. After completing the project, I can say that my hypothesis was correct.');
         $('#syqology-para-2').text('The TypeScript front end utilises the NextJS framework which I am familiar with, but I found myself having to take a lot more precaution when using conditional rendering when compared to JavaScript. Using TypeScript also meant I had to create a Player class which was populated by data from my Express back end via communicating with my PostgreSQL database.');
+        $('#stamina-para-1').text('Tracking calories and workouts should never have been a two app job. Even now I don\'t understand why it has taken so long for an app like Stamina to be released.')
+        $('#stamina-para-2').text('Built using React Native, Expo and Firebase. The app is professionally made and could at as a business. Testing is done with Jest.')
         $('#person-1-name').text('Naoto Shirakawa')
         $('#person-1-role').text('Manager at John Wayne Barbershop')
         $('#person-1-quote').text('The Barbershop John Wayne website was brilliantly revamped thanks to Joseph\'s exceptional design sense and technical skills. His ideas were always innovative, accurately capturing our requirements and delivering results beyond our expectations. Joseph is truly a reliable professional.')
@@ -86,7 +88,7 @@ $(document).ready(function(){
 
     english();
 
-    function japanese(){
+    function japanese() {
         initializeTyped();
 
         $('#nav-home').text('ホーム');
@@ -148,10 +150,10 @@ $(document).ready(function(){
         initializeTyped();
     }
 
-    $('#english').click(function(){
+    $('#english').click(function () {
         english();
     })
-    $('#japanese').click(function(){
+    $('#japanese').click(function () {
         japanese();
     })
 })
