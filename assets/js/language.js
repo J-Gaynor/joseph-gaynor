@@ -59,6 +59,7 @@ $(document).ready(function () {
         $('#object-identifier-desc').text('A front end project utilising Google\'s Mediapipe to analyse images uploaded by the user and state the focal point of the image with a level of confience. Built with React.');
         $('#album-promotion-desc').text('An artistic project to promote an artists album using Boostrap.');
         $('#syqology-desc').text('A full stack \'social experiment\' web application that challenges users to remain an active player for the longest time with minimal input. This is my first TypeScript project, it utilises a JavaScript backend with a  PostgreSQL database.');
+        $('#stamina-desc').text('Built using React Native, Expo and Firebase. The app is professionally made and could at as a business. Testing is done with Jest.');
         $('.tech-stack').text('Tech Stack:');
         $('#wordpress-para-1').text('In my blog about my time in Japan, I utilised WordPress, a service I had no familiarity with whatsoever. Through self-teaching and some trial and error, I created a blog page that I am happy with. Though minimalistic in functionality, it captures the essence of what I wanted, which was a blog site where I can detail my travels across the country.');
         $('#wordpress-para-2').text('Currently, the blog is crafted entirely with vanilla WordPress (no plugins) and was made using WordPress.com rather than WordPress.org. As the blog grows, I will possibly revisit it and implement additional functionality that, as of now, hasn\'t occured to me.');
@@ -126,6 +127,7 @@ $(document).ready(function () {
         $('#object-identifier-desc').text('ユーザーがアップロードした画像を解析し、画像の焦点を信頼度とともに示すために、GoogleのMediapipeを活用したフロントエンドプロジェクト。Reactを使用して構築されています。');
         $('#album-promotion-desc').text('Bootstrapを使ってアーティストのアルバムをプロモーションするアートプロジェクトです。');
         $('#syqology-desc').text('最小限の入力で、できるだけ長くアクティブなプレイヤーでい続けることに挑戦する、フルスタックの「社会実験」型Webアプリケーションです。これは私の最初のTypeScriptプロジェクトであり、JavaScriptのバックエンドとPostgreSQLデータベースを使用しています。');
+        $('#stamina-desc').text('React Native、Expo、Firebaseを使用して構築されています。プロ水準で制作されており、ビジネスとしても成立する完成度です。テストにはJestが使用されています。')
         $('.tech-stack').text('技術スタック:');
         $('#wordpress-para-1').text('日本での時間についてのブログでは、全く馴染みのなかったサービスであるWordPressを活用しました。独学と試行錯誤を通じて、自分が満足できるブログページを作成しました。機能性は最小限ですが、自分が求めていた本質、つまり日本中を旅しながら詳細を書き留められるブログサイトを実現できました。');
         $('#wordpress-para-2').text('現在、このブログはプラグインを使わず、完全にバニラのWordPressで作成されており、WordPress.orgではなくWordPress.comを使用して作られています。ブログが成長するにつれて、将来的には再訪して、今は思いついていない追加機能を実装する可能性があります。');
@@ -144,6 +146,8 @@ $(document).ready(function () {
         $('#album-promo-para-2').text('このプロジェクトはデザインスキルを試す良い挑戦となりましたが、最終的な仕上がりには満足しています。テーマに合わせるという作業は難しくもあり、やりがいもありました。');
         $('#syqology-para-1').text('SyQoLogyは、ユーザーに限られた手段で自身のポジションを維持しながら、アクティブなプレイヤーであり続けることを求める社会実験型のWebアプリです。TypeScriptの学習を始めると同時に、バックエンドのスキルを強化する良い機会になると考え、このプロジェクトに取り組むことを決めました。プロジェクトを完了した今、その仮説が正しかったと実感しています。');
         $('#syqology-para-2').text('TypeScriptのフロントエンドには、私が慣れているNext.jsフレームワークを使用しています。しかし、JavaScriptと比べて、条件付きレンダリングを行う際により多くの注意を払う必要があると感じました。  また、TypeScriptを使用することで、PostgreSQLデータベースと通信するExpressのバックエンドからのデータをもとにPlayerクラスを作成し、適切にデータを管理する必要がありました。');
+        $('#stamina-para-1').text('カロリー計算とワークアウトの記録を、2つのアプリに分ける必要は一切ありません。なぜStaminaのようなアプリがこれまでリリースされなかったのか、今でも不思議に思うほどです。')
+        $('#stamina-para-2').text('React Native、Expo、Firebaseを使用して構築されています。プロ水準で制作されており、ビジネスとしても成立する完成度です。テストにはJestが使用されています。')
         $('#person-1-name').text('白川　直人')
         $('#person-1-role').text('John Wayne Barbershopでマネージャー')
         $('#person-1-quote').text('バーバージョンウェインのウェブサイトは、Josephさんの卓越したデザインセンスと技術によって、見事に生まれ変わりました。彼の提案は常に斬新で、私たちの要望を的確に捉え、期待以上の成果をもたらしてくれました。Josephさんは、まさに信頼できるプロフェッショナルです。')
